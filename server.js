@@ -4,7 +4,7 @@ const fs = require('fs')
 userName='South Hills Student'
 allResponsesArray = []
 
-const server = http.createServer((req, res) => {
+const server = http.createServer((req, res) => {  
   res.writeHead(200, { 'content-type': 'text/html' })
   if (req.method == 'POST') {
     console.log('POST')
